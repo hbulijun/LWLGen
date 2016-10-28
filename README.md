@@ -2,3 +2,6 @@
 -----------
 
 ## tetgen
+
+
+##mesh quality criterion
