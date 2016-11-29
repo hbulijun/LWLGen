@@ -1,0 +1,62 @@
+﻿生成启动时间为 2016/11/29 15:50:47。
+     1>项目“F:\demo\external\CHAI3D\extras\freeglut\freeglut-VS2013.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GT /D WIN64 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FREEGLUT_STATIC /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj/Release/x64\\" /Fd"obj/Release/x64\vc120.pdb" /Gd /TC /wd4101 /errorReport:prompt src\freeglut_callbacks.c src\freeglut_cursor.c src\freeglut_display.c src\freeglut_ext.c src\freeglut_font.c src\freeglut_font_data.c src\freeglut_gamemode.c src\freeglut_geometry.c src\freeglut_glutfont_definitions.c src\freeglut_init.c src\freeglut_input_devices.c src\freeglut_joystick.c src\freeglut_main.c src\freeglut_menu.c src\freeglut_misc.c src\freeglut_overlay.c src\freeglut_spaceball.c src\freeglut_state.c src\freeglut_stroke_mono_roman.c src\freeglut_stroke_roman.c src\freeglut_structure.c src\freeglut_teapot.c src\freeglut_videoresize.c src\freeglut_window.c
+         freeglut_callbacks.c
+         freeglut_cursor.c
+         freeglut_display.c
+         freeglut_ext.c
+         freeglut_font.c
+         freeglut_font_data.c
+         freeglut_gamemode.c
+         freeglut_geometry.c
+         freeglut_glutfont_definitions.c
+         freeglut_init.c
+         freeglut_input_devices.c
+         freeglut_joystick.c
+         freeglut_main.c
+         freeglut_menu.c
+         freeglut_misc.c
+         freeglut_overlay.c
+         freeglut_spaceball.c
+         freeglut_state.c
+         freeglut_stroke_mono_roman.c
+         freeglut_stroke_roman.c
+         正在生成代码...
+         正在编译...
+         freeglut_structure.c
+         freeglut_teapot.c
+         freeglut_videoresize.c
+         freeglut_window.c
+         正在生成代码...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib/Release/x64\freeglut.lib" /NOLOGO /MACHINE:X64 obj/Release/x64\freeglut_callbacks.obj
+         obj/Release/x64\freeglut_cursor.obj
+         obj/Release/x64\freeglut_display.obj
+         obj/Release/x64\freeglut_ext.obj
+         obj/Release/x64\freeglut_font.obj
+         obj/Release/x64\freeglut_font_data.obj
+         obj/Release/x64\freeglut_gamemode.obj
+         obj/Release/x64\freeglut_geometry.obj
+         obj/Release/x64\freeglut_glutfont_definitions.obj
+         obj/Release/x64\freeglut_init.obj
+         obj/Release/x64\freeglut_input_devices.obj
+         obj/Release/x64\freeglut_joystick.obj
+         obj/Release/x64\freeglut_main.obj
+         obj/Release/x64\freeglut_menu.obj
+         obj/Release/x64\freeglut_misc.obj
+         obj/Release/x64\freeglut_overlay.obj
+         obj/Release/x64\freeglut_spaceball.obj
+         obj/Release/x64\freeglut_state.obj
+         obj/Release/x64\freeglut_stroke_mono_roman.obj
+         obj/Release/x64\freeglut_stroke_roman.obj
+         obj/Release/x64\freeglut_structure.obj
+         obj/Release/x64\freeglut_teapot.obj
+         obj/Release/x64\freeglut_videoresize.obj
+         obj/Release/x64\freeglut_window.obj
+         freeglut-VS2013.vcxproj -> F:\demo\external\CHAI3D\extras\freeglut\lib/Release/x64\freeglut.lib
+     1>已完成生成项目“F:\demo\external\CHAI3D\extras\freeglut\freeglut-VS2013.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.04

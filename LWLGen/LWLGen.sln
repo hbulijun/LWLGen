@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LWLGen", "LWLGen\LWLGen.vcxproj", "{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227} = {FA3C5038-FB3D-499F-8CCA-410BCA3DD227}
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0} = {A9F01342-5463-4634-B1F9-BF98CD5591B0}
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18} = {71AF75A0-52B6-4C1B-8E56-CB31C6741A18}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHAI3D", "..\external\CHAI3D\CHAI3D-VS2013.vcxproj", "{A9F01342-5463-4634-B1F9-BF98CD5591B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freeglut", "..\external\CHAI3D\extras\freeglut\freeglut-VS2013.vcxproj", "{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CHAI3D-GEL", "..\external\CHAI3D\modules\GEL\CHAI3D-GEL-VS2013.vcxproj", "{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Debug|Win32.Build.0 = Debug|Win32
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Debug|x64.ActiveCfg = Debug|x64
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Debug|x64.Build.0 = Debug|x64
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Release|Win32.ActiveCfg = Release|Win32
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Release|Win32.Build.0 = Release|Win32
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Release|x64.ActiveCfg = Release|x64
+		{51DD9CA8-387C-48A7-AB8F-FF19857EF27D}.Release|x64.Build.0 = Release|x64
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Debug|Win32.Build.0 = Debug|Win32
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Debug|x64.ActiveCfg = Debug|x64
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Debug|x64.Build.0 = Debug|x64
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Release|Win32.ActiveCfg = Release|Win32
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Release|Win32.Build.0 = Release|Win32
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Release|x64.ActiveCfg = Release|x64
+		{A9F01342-5463-4634-B1F9-BF98CD5591B0}.Release|x64.Build.0 = Release|x64
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Debug|Win32.Build.0 = Debug|Win32
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Debug|x64.ActiveCfg = Debug|x64
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Debug|x64.Build.0 = Debug|x64
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Release|Win32.ActiveCfg = Release|Win32
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Release|Win32.Build.0 = Release|Win32
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Release|x64.ActiveCfg = Release|x64
+		{71AF75A0-52B6-4C1B-8E56-CB31C6741A18}.Release|x64.Build.0 = Release|x64
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Debug|Win32.Build.0 = Debug|Win32
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Debug|x64.ActiveCfg = Debug|x64
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Debug|x64.Build.0 = Debug|x64
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Release|Win32.ActiveCfg = Release|Win32
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Release|Win32.Build.0 = Release|Win32
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Release|x64.ActiveCfg = Release|x64
+		{FA3C5038-FB3D-499F-8CCA-410BCA3DD227}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/11/29 15:50:47。
+     1>项目“F:\demo\external\CHAI3D\modules\GEL\CHAI3D-GEL-VS2013.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../src /I../../external/glew/include /I../../external/Eigen /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GT /D WIN64 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MD /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj/Release/x64\\" /Fd"obj/Release/x64\vc120.pdb" /Gd /TP /errorReport:prompt src\CGELLinearSpring.cpp src\CGELMassParticle.cpp src\CGELMesh.cpp src\CGELSkeletonLink.cpp src\CGELSkeletonNode.cpp src\CGELVertex.cpp src\CGELWorld.cpp
+         CGELLinearSpring.cpp
+         CGELMassParticle.cpp
+         CGELMesh.cpp
+         CGELSkeletonLink.cpp
+         CGELSkeletonNode.cpp
+         CGELVertex.cpp
+         CGELWorld.cpp
+         正在生成代码...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"lib/Release/x64\chai3d-GEL.lib" /NOLOGO /MACHINE:X64 /LTCG obj/Release/x64\CGELLinearSpring.obj
+         obj/Release/x64\CGELMassParticle.obj
+         obj/Release/x64\CGELMesh.obj
+         obj/Release/x64\CGELSkeletonLink.obj
+         obj/Release/x64\CGELSkeletonNode.obj
+         obj/Release/x64\CGELVertex.obj
+         obj/Release/x64\CGELWorld.obj
+         CHAI3D-GEL-VS2013.vcxproj -> F:\demo\external\CHAI3D\modules\GEL\lib/Release/x64\chai3d-GEL.lib
+     1>已完成生成项目“F:\demo\external\CHAI3D\modules\GEL\CHAI3D-GEL-VS2013.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.50

@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/11/29 15:52:34。
+     1>项目“F:\demo\LWLGen\LWLGen\LWLGen.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../external/CHAI3D/modules/GEL/src /I../../external/CHAI3D/src /I../../external/CHAI3D/external/Eigen /I../../external/CHAI3D/external/glew/include /I../../external/CHAI3D/extras/freeglut/include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /GL /D WIN64 /D NDEBUG /D _CONSOLE /D _MSVC /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp predicates.cpp tetgen.cpp
+         main.cpp
+     1>main.cpp(273): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(274): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(445): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(505): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(506): warning C4305: “参数”: 从“double”到“const float”截断
+     1>main.cpp(693): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(744): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(764): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(765): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+         predicates.cpp
+         tetgen.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win-x64\LWLGen.exe" /NOLOGO /LIBPATH:../../external/CHAI3D/lib/Release/x64 /LIBPATH:../../external/CHAI3D/extras/freeglut/lib/Release/x64 /LIBPATH:../../external/CHAI3D/modules/GEL/lib/Release/x64 freeglut.lib chai3d.lib "chai3d-GEL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/win-x64\LWLGen.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win-x64\LWLGen.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\predicates.obj
+         x64\Release\tetgen.obj
+         正在生成代码
+         已完成代码的生成
+         LWLGen.vcxproj -> F:\demo\LWLGen\LWLGen\../../bin/win-x64\LWLGen.exe
+     1>已完成生成项目“F:\demo\LWLGen\LWLGen\LWLGen.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.46

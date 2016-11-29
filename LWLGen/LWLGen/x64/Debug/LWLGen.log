@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/11/29 20:43:14。
+     1>项目“F:\lijun\LWLGen\LWLGen\LWLGen\LWLGen\LWLGen.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../../external/CHAI3D/modules/GEL/src /I../../external/CHAI3D/src /I../../external/CHAI3D/external/Eigen /I../../external/CHAI3D/external/glew/include /I../../external/CHAI3D/extras/freeglut/include /Zi /nologo /W3 /WX- /sdl- /Od /D WIN64 /D _DEBUG /D _CONSOLE /D _MSVC /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp predicates.cpp tetgen.cpp
+         tetgen.cpp
+         predicates.cpp
+         main.cpp
+     1>main.cpp(135): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(136): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>main.cpp(248): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(301): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(302): warning C4305: “参数”: 从“double”到“const float”截断
+     1>main.cpp(452): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(499): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(519): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+     1>main.cpp(520): warning C4305: “参数”: 从“double”到“const GLfloat”截断
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win-x64\LWLGen.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../external/CHAI3D/lib/Debug/x64 /LIBPATH:../../external/CHAI3D/extras/freeglut/lib/Debug/x64 /LIBPATH:../../external/CHAI3D/modules/GEL/lib/Debug/x64 freeglut.lib chai3d.lib "chai3d-GEL.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../../bin/win-x64\LWLGen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win-x64\LWLGen.lib" /MACHINE:X64 x64\Debug\main.obj
+         x64\Debug\predicates.obj
+         x64\Debug\tetgen.obj
+         LINK : 没有找到 ../../bin/win-x64\LWLGen.exe 或上一个增量链接没有生成它；正在执行完全链接
+         LWLGen.vcxproj -> F:\lijun\LWLGen\LWLGen\LWLGen\LWLGen\../../bin/win-x64\LWLGen.exe
+     1>已完成生成项目“F:\lijun\LWLGen\LWLGen\LWLGen\LWLGen\LWLGen.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.81
